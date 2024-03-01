@@ -8,13 +8,13 @@ RegisterNetEvent('pyt_fireDispatch:Server:CheckForOnDutyPlayers', function ()
     -- framework-specific logic
 end)
 
-local function fireManager(call)
+local function fireManager(data)
     -- handle fire spread and mouvement
     -- call pyt_fireDispatch:Client:ClientUpdater on players to add/remove fire items
 end
 
 RegisterNetEvent('pyt_fireDispatch:Server:ReceivesClientCalls')
-AddEventHandler('pyt_fireDispatch:Server:ReceivesClientCalls', function (call)
-    -- need to define what call caries
-    fireManager(call)
+AddEventHandler('pyt_fireDispatch:Server:ReceivesClientCalls', function (data)
+    -- need to define what data caries
+    fireManager(data)
 end)
