@@ -1,8 +1,8 @@
 # PYT FireDispatch - The Successor to ESX FireDispatch
-<div style="text-align: center;">
+<p align="center">
   <img src="https://img.shields.io/badge/Standalone-Compatible-brightgreen" alt="Standalone Compatible">
   <img src="https://img.shields.io/badge/QBCore-Compatible-maroon" alt="QBCore Compatible">
-</div>
+</p>
 <p align="center">
 <a href="https://github.com/Pyth3rEx/PYT-FireDispatch/releases">
   <img src="https://img.shields.io/badge/Version-0.0.0-dodgerblue" alt="Version">
